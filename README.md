@@ -48,6 +48,7 @@ Qubes OS quickstarts
 - `qui-updates`
 
 > All the source code (Python 3) is found here: `/usr/lib/python3.8/site-packages/`
+> On GitHub: https://github.com/QubesOS/qubes-desktop-linux-manager/
 
 ## Other to note
 - `X -> /usr/bin/X-wrapper-qubes`
