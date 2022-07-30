@@ -3,7 +3,50 @@
 # qubes-os-quickstarts
 Qubes OS quickstarts
 
-## Commands
+## Qubes Commands
+- qvm-appmenus
+- qvm-console-dispvm
+- qvm-firewall
+- qvm-move-to-vm
+- qvm-remove
+- qvm-start-gui
+- qvm-template-postprocess
+- qvm-backup
+- qvm-copy
+- qvm-get-image
+- qvm-pause
+- qvm-run
+- qvm-sync-appmenus
+- qvm-unpause
+- qvm-backup-restore
+- qvm-copy-to-vm
+- qvm-get-tinted-image
+- qvm-pci
+- qvm-service
+- qvm-sync-clock
+- qvm-usb - [How to use USB devices](https://www.qubes-os.org/doc/how-to-use-usb-devices/)
+- qvm-block
+- qvm-create
+- qvm-kill
+- qvm-pool
+- qvm-shutdown
+- qvm-tags
+- qvm-volume
+- qvm-check
+- qvm-device
+- qvm-ls
+- qvm-pool-legacy
+- qvm-start
+- qvm-template
+- qvm-xkill
+- qvm-clone
+- qvm-features
+- qvm-move
+- qvm-prefs
+- qvm-start-daemon
+- qvm-template-gui
+
+## Commands for desktop application for managing Qubes OS
 - Qubes Qube Manager: `/usr/bin/python3 /usr/bin/qubes-qube-manager`
 - `qubes-backup`
 - `qubes-backup-restore`
