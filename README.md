@@ -3,6 +3,10 @@
 # qubes-os-quickstarts
 Qubes OS quickstarts
 
+## Quicky
+- `xfce4-appfinder --collapsed` - To quickly start application (run).
+- `qvm-run -q -a --service -- sys-whonix qubes.StartApp+tor-control-panel` - For the tor control panel.
+
 ## Qubes Commands
 - qvm-appmenus
 - qvm-console-dispvm
@@ -19,7 +23,7 @@ Qubes OS quickstarts
 - qvm-sync-appmenus
 - qvm-unpause
 - qvm-backup-restore
-- qvm-copy-to-vm
+- qvm-copy-to-vm - [How to copy from dom0](https://www.qubes-os.org/doc/how-to-copy-from-dom0/) - you can also copy from the dom0 without the gui: copy your data into `/var/run/qubes/qubes-clipboard.bin` then `echo -n dom0 > /var/run/qubes/qubes-clipboard.bin.source`.
 - qvm-get-tinted-image
 - qvm-pci
 - qvm-service
