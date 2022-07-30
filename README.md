@@ -43,3 +43,35 @@ Qubes OS quickstarts
 ## Other to note
 - `X -> /usr/bin/X-wrapper-qubes`
 - `X-wrapper-qubes`
+
+## XFCE4 Commands
+- `xfce4-settings-manager` - "Control Panel"
+- `startxfce4`
+- `xfce4-about`
+- `xfce4-accessibility-settings`
+- `xfce4-appearance-settings`
+- `xfce4-appfinder`
+- `xfce4-color-settings`
+- `xfce4-display-settings`
+- `xfce4-find-cursor`
+- `xfce4-keyboard-settings`
+- `xfce4-mime-settings`
+- `xfce4-mouse-settings`
+- `xfce4-notifyd-config`
+- `xfce4-panel`
+- `xfce4-popup-applicationsmenu`
+- `xfce4-popup-directorymenu`
+- `xfce4-popup-places`
+- `xfce4-popup-windowmenu`
+- `xfce4-power-manager`
+- `xfce4-power-manager-settings`
+- `xfce4-screenshooter`
+- `xfce4-sensors`
+- `xfce4-session`
+- `xfce4-session-logout`
+- `xfce4-session-settings`
+- `xfce4-settings-editor`
+- `xfce4-settings-manager`
+- `xfce4-taskmanager`
+- `xfce4-terminal`
+- `xfrun4 -> xfce4-appfinder`
