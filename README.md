@@ -75,3 +75,6 @@ Qubes OS quickstarts
 - `xfce4-taskmanager`
 - `xfce4-terminal`
 - `xfrun4 -> xfce4-appfinder`
+### xfdesktop
+- `xfdesktop`
+- `xfdesktop-settings` - Managing the background image.
