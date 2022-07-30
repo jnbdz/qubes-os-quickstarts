@@ -40,6 +40,13 @@ Qubes OS quickstarts
 - `qubes-vm-create`
 - `qubes-vm-settings`
 
+## qui
+- `qui-clipboard`
+- `qui-devices`
+- `qui-diskspace`
+- `qui-domains`
+- `qui-updates`
+
 ## Other to note
 - `X -> /usr/bin/X-wrapper-qubes`
 - `X-wrapper-qubes`
@@ -78,3 +85,8 @@ Qubes OS quickstarts
 ### xfdesktop
 - `xfdesktop`
 - `xfdesktop-settings` - Managing the background image.
+## xfwm4
+- `xfwm4`
+- `xfwm4-settings` - For managing the mdesktop menu (panel).
+- `xfwm4-tweaks-settings`
+- `xfwm4-workspace-settings` - Managing the workspace.
