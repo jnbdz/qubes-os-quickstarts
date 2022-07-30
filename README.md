@@ -47,6 +47,8 @@ Qubes OS quickstarts
 - `qui-domains`
 - `qui-updates`
 
+> All the source code (Python 3) is found here: `/usr/lib/python3.8/site-packages/`
+
 ## Other to note
 - `X -> /usr/bin/X-wrapper-qubes`
 - `X-wrapper-qubes`
