@@ -148,6 +148,7 @@ Qubes OS quickstarts
 - `/dev/qubes_dom0` - Has all the volumes of the VMs
     - They seem to be all symlinks to `/dev/dm-*`
     - I am guessing that `root` and `swap` are the volumes for the dom0
+    - When I use `file` command on the source of the symlink i get: `dm-55: block special (235/55)`
 
 ## Troubleshooting
 ### Terminal access/exit
