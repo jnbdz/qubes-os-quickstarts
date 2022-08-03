@@ -152,7 +152,9 @@ Qubes OS quickstarts
         - [Device file | Wikipedia](https://en.wikipedia.org/wiki/Device_file#Block_devices)
         - https://askubuntu.com/questions/166716/what-is-the-meaning-of-block-special
 - [Mount LVM image](https://www.qubes-os.org/doc/mount-lvm-image/) - *You want to read your LVM image (e.g., there is a problem where you can’t start any VMs except dom0).*
-- [Volume backup and revert](https://www.qubes-os.org/doc/volume-backup-revert/) - *With Qubes, it is possible to revert one of a VM’s storage volumes to a previous state using the automatic snapshot that is normally saved every time a VM is shutdown. (Note that this is a different, lower level activity than the Backup, Restoration, and Migration process.)*
+- [Volume backup and revert](https://www.qubes-os.org/doc/volume-backup-revert/) - *With Qubes, it is possible to revert one of a VM’s storage volumes to a previous state using the automatic snapshot that is normally saved every time a VM is shutdown. (Note that this is a different, lower level activity than the [Backup, Restoration, and Migration](https://www.qubes-os.org/doc/backup-restore/) process.)*
+- [Storage pools](https://www.qubes-os.org/doc/storage-pools/) - *Qubes OS R3.2 introduced the concept of storage drivers and pools. This feature was a first step towards a saner storage API, which is heavily rewritten in R4. See [here](https://dev.qubes-os.org/projects/core-admin/en/latest/qubes-storage.html) for documentation on storage pools in R4.*
+- [qubes.storage – Qubes data storage](https://dev.qubes-os.org/projects/core-admin/en/latest/qubes-storage.html) - *Qubes provide extensible API for domains data storage. Each domain have multiple storage volumes, for different purposes. Each volume is provided by some storage pool. Qubes support different storage pool drivers, and it’s possible to register additional 3rd-party drivers.*
 
 ## Troubleshooting
 ### Terminal access/exit
