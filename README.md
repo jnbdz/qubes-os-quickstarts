@@ -140,3 +140,13 @@ Qubes OS quickstarts
 - `xfwm4-settings` - For managing the mdesktop menu (panel).
 - `xfwm4-tweaks-settings`
 - `xfwm4-workspace-settings` - Managing the workspace.
+
+# Troubleshooting
+## Terminal access/exit
+- To access the terminal (dom0): <kbd>Alt + Ctrl + F2</kbd>
+- To exit the terminal (dom0): <kbd>Alt + Ctrl + F1</kbd>
+## `qubes.xml` issues
+This file contains details about each VMs.
+- Located: `/var/lib/qubes/qubes.xml`
+- Backups: `/var/lib/qubes/qubes.xml`
+If the `qubes.xml` file is empty you can copy one from the backups.
