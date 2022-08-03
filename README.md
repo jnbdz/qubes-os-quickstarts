@@ -160,6 +160,9 @@ This file contains details about each VMs.
     - Clean up the rest: `qvm-remove <VMname>`
 - Decrease the filesystem safety margin (5% by default): `sudo tune2fs -m 4 /dev/mapper/vg_dom0-lv_root`
 - Another solution is to clear some of the logs: `/var/log` and/or `/var/log/qubes`
+## Disk commands
+- `pvs` - Display information about pgysical volumes
+- `lvs` - Display information about logical volumes (you can see the volumes (backups too) of the different VMs)
 ## TODO
 - `/var/log/Xorg.0.log` - It seems there is an warning/error that keeps showing up
     - `[...] (EE) event7   - USB Optical Mouse: client bug: event processing lagging behind by 11ms, your system is too slow`
