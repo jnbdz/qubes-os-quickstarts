@@ -149,6 +149,8 @@ Qubes OS quickstarts
     - They seem to be all symlinks to `/dev/dm-*`
     - I am guessing that `root` and `swap` are the volumes for the dom0
     - When I use `file` command on the source of the symlink i get: `dm-55: block special (235/55)`
+        - [Device file | Wikipedia](https://en.wikipedia.org/wiki/Device_file#Block_devices)
+        - https://askubuntu.com/questions/166716/what-is-the-meaning-of-block-special
 
 ## Troubleshooting
 ### Terminal access/exit
