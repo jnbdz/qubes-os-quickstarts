@@ -141,26 +141,30 @@ Qubes OS quickstarts
 - `xfwm4-tweaks-settings`
 - `xfwm4-workspace-settings` - Managing the workspace.
 
-# Logs
+## Logs
 - `/var/log/qubes` - The VMs logs are found here
 - `/var/log/`
+## Volumes in `/dev`
+- `/dev/qubes_dom0` - Has all the volumes of the VMs
+    - They seem to be all symlinks to `/dev/dm-*`
+    - I am guessing that `root` and `swap` are the volumes for the dom0
 
-# Troubleshooting
-## Terminal access/exit
+## Troubleshooting
+### Terminal access/exit
 - To access the terminal (dom0): <kbd>Alt + Ctrl + F2</kbd>
 - To exit the terminal (dom0): <kbd>Alt + Ctrl + F1</kbd>
-## `qubes.xml` issues
+### `qubes.xml` issues
 This file contains details about each VMs.
 - Located: `/var/lib/qubes/qubes.xml`
 - Backups: `/var/lib/qubes/qubes.xml`
 > If the `qubes.xml` file is empty you can copy one from the backups.
-## Free some space on disk
+### Free some space on disk
 - `sudo dnf clean all` - clears the cache of `yum`
 - `/var/lib/qubes/appvms/` - You can delete the `.img` files (delete the `.img` of the less important VMs)
     - Clean up the rest: `qvm-remove <VMname>`
 - Decrease the filesystem safety margin (5% by default): `sudo tune2fs -m 4 /dev/mapper/vg_dom0-lv_root`
 - Another solution is to clear some of the logs: `/var/log` and/or `/var/log/qubes`
-## Disk commands
+### Disk commands
 - `pvs` - Display information about pgysical volumes
 - `lvs` - Display information about logical volumes (you can see the volumes (backups too) of the different VMs)
 - - [Secondary storage](https://www.qubes-os.org/doc/secondary-storage/) - *Suppose you have a fast but small primary SSD and a large but slow secondary HDD. You want to store a subset of your app qubes on the HDD.*
