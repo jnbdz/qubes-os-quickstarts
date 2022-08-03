@@ -149,4 +149,10 @@ Qubes OS quickstarts
 This file contains details about each VMs.
 - Located: `/var/lib/qubes/qubes.xml`
 - Backups: `/var/lib/qubes/qubes.xml`
-If the `qubes.xml` file is empty you can copy one from the backups.
+> If the `qubes.xml` file is empty you can copy one from the backups.
+## Free some space on disk
+- `sudo dnf clean all` - clears the cache of `yum`
+- `/var/lib/qubes/appvms/` - You can delete the `.img` files (delete the `.img` of the less important VMs)
+    - Clean up the rest: `qvm-remove <VMname>`
+- Decrease the filesystem safety margin (5% by default): `sudo tune2fs -m 4 /dev/mapper/vg_dom0-lv_root`
+- Another solution is to clear some of the logs: `/var/log` and/or `/var/log/qubes`
