@@ -151,6 +151,8 @@ Qubes OS quickstarts
     - When I use `file` command on the source of the symlink i get: `dm-55: block special (235/55)`
         - [Device file | Wikipedia](https://en.wikipedia.org/wiki/Device_file#Block_devices)
         - https://askubuntu.com/questions/166716/what-is-the-meaning-of-block-special
+- [Mount LVM image](https://www.qubes-os.org/doc/mount-lvm-image/) - *You want to read your LVM image (e.g., there is a problem where you can’t start any VMs except dom0).*
+- [Volume backup and revert](https://www.qubes-os.org/doc/volume-backup-revert/) - *With Qubes, it is possible to revert one of a VM’s storage volumes to a previous state using the automatic snapshot that is normally saved every time a VM is shutdown. (Note that this is a different, lower level activity than the Backup, Restoration, and Migration process.)*
 
 ## Troubleshooting
 ### Terminal access/exit
