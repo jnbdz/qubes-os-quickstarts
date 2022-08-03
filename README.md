@@ -141,6 +141,10 @@ Qubes OS quickstarts
 - `xfwm4-tweaks-settings`
 - `xfwm4-workspace-settings` - Managing the workspace.
 
+# Logs
+- `/var/log/qubes` - The VMs logs are found here
+- `/var/log/`
+
 # Troubleshooting
 ## Terminal access/exit
 - To access the terminal (dom0): <kbd>Alt + Ctrl + F2</kbd>
@@ -156,3 +160,7 @@ This file contains details about each VMs.
     - Clean up the rest: `qvm-remove <VMname>`
 - Decrease the filesystem safety margin (5% by default): `sudo tune2fs -m 4 /dev/mapper/vg_dom0-lv_root`
 - Another solution is to clear some of the logs: `/var/log` and/or `/var/log/qubes`
+## TODO
+- `/var/log/Xorg.0.log` - It seems there is an warning/error that keeps showing up
+    - `[...] (EE) event7   - USB Optical Mouse: client bug: event processing lagging behind by 11ms, your system is too slow`
+    - `[...] (EE) event4   - Wired USB Keyboard: client bug: event processing lagging behind by 11ms, your system is too slow`
