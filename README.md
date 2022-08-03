@@ -163,6 +163,7 @@ This file contains details about each VMs.
 ## Disk commands
 - `pvs` - Display information about pgysical volumes
 - `lvs` - Display information about logical volumes (you can see the volumes (backups too) of the different VMs)
+- - [Secondary storage](https://www.qubes-os.org/doc/secondary-storage/) - *Suppose you have a fast but small primary SSD and a large but slow secondary HDD. You want to store a subset of your app qubes on the HDD.*
 ## TODO
 - `/var/log/Xorg.0.log` - It seems there is an warning/error that keeps showing up
     - `[...] (EE) event7   - USB Optical Mouse: client bug: event processing lagging behind by 11ms, your system is too slow`
