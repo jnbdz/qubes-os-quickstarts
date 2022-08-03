@@ -157,6 +157,16 @@ Qubes OS quickstarts
 - [qubes.storage – Qubes data storage](https://dev.qubes-os.org/projects/core-admin/en/latest/qubes-storage.html) - *Qubes provide extensible API for domains data storage. Each domain have multiple storage volumes, for different purposes. Each volume is provided by some storage pool. Qubes support different storage pool drivers, and it’s possible to register additional 3rd-party drivers.*
 
 ## Troubleshooting
+### Restore VM
+- Cause? No idea. It notice it removes many of the `qvm` commands in `/usr/bin`
+- Solution: https://www.qubes-os.org/doc/volume-backup-revert/
+    - `qvm-volume config vmname:private revisions_to_keep 4` - You might want to expand the *revisions_to_keep* because it will overwrite the previous version you had (that's why I put 4).
+    - `:private` is for the data
+    - `:root` is the system it self
+- Step by step (change `private` to `root` for reverting the system files): 
+    1. `qvm-volume info vmname:private`
+    2. `qvm-volume config vmname:private revisions_to_keep 4`
+    3. `qvm-volume revert vmname:private <revision>`
 ### Terminal access/exit
 - To access the terminal (dom0): <kbd>Alt + Ctrl + F2</kbd>
 - To exit the terminal (dom0): <kbd>Alt + Ctrl + F1</kbd>
